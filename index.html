@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chaart | Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <!-- dashboard container - starts -->
+        <div class="dashboard-container">
+
+
+            <!-- navigation container - starts -->
+            <div class="navigation-aside">
+
+                <!-- logo -->
+                <div>
+                    <img src="/images/logo.png" alt="Chaart Logo" class="logo">
+                </div>
+
+                <!-- profile tab -->
+                <div class="profile-tab">
+                    <div class="profile-image-tab">
+                        <img src="/images/profile-pic-main.png" alt="Profile Picture" width="60px" height="60px">
+                        <div class="profile-timer">
+                            <i class="fa-solid fa-clock"></i>
+                            <span>26h</span>
+                        </div>
+                    </div>
+                    <p class="profile-name">Mpho Molefe</p>
+                    <p class="profile-email">mphom@gmail.com</p>
+
+                </div>
+
+                <!-- Sections Navigation -->
+                <div class="sections-navigation-vertical">
+                    <div class="sections-navigation-item">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Dashboard</p>
+                    </div>
+                    <div class="sections-navigation-item">
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>Analytics</p>
+                    </div>
+                    <div class="sections-navigation-item">
+                        <i class="fa-solid fa-list-check"></i>
+                        <p>Task List</p>
+                    </div>
+                    <div class="sections-navigation-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <p>Tracking</p>
+                    </div>
+                    <div class="sections-navigation-item">
+                        <i class="fa-sharp fa-solid fa-gear"></i>
+                        <p>Settings</p>
+                    </div>
+                </div>
+            </div><!-- navigation container - ends -->
+
+            <!-- Pannels Section -->
+            <div class="pannels-container">
+
+                <!-- Pannel Section - Left -->
+                <div class="pannel-left">
+
+
+                    <!-- left Pannel Top Bar -->
+                    <div class="pannel-left-topbar">
+                        <div class="name-date">
+                            <h3>Mpho Molefe</h3>
+                            <p>Today is Friday, 22 April 2022</p>
+                        </div>
+                        <div class="search-new">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <button>Add New Project</button>
+                        </div>
+                    </div>
+
+
+                    <!-- Projects Section -->
+                    <div class="projects-bar">
+
+
+                        <!-- Web Project -->
+                        <div class="project project-web">
+                            <div>
+                                <div>
+                                    <div>+7</div>
+                                    <img src="/images/profile-pic-main2.png" width="30" height="30">
+                                    <img src="/images/profile-pic-main3.png" width="30" height="30">
+
+                                </div>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+
+                            <h3>Web Development</h3>
+                            <h5>10 tasks | 96%</h5>
+                            <div class="web-progress-bar">
+                                <div class="web-progress-bar-inner"></div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- App Project -->
+                        <div class="project project-app">
+                            <div>
+                                <div>
+                                    <div>+9</div>
+                                    <img src="/images/profile-pic-main4.png" width="30" height="30">
+                                    <img src="/images/profile-pic-main5.png" width="30" height="30">
+
+                                </div>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+
+                            <h3>Mobile App Design</h3>
+                            <h5>12 tasks | 46%</h5>
+                            <div class="app-progress-bar">
+                                <div class="app-progress-bar-inner"></div>
+                            </div>
+
+                        </div>
+
+                        <!-- Facebook Project -->
+                        <div class="project project-facebook">
+                            <div>
+                                <div>
+                                    <div>+5</div>
+                                    <img src="/images/profile-pic-main6.png" width="30" height="30">
+                                    <img src="/images/profile-pic-main7.png" width="30" height="30">
+
+                                </div>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+
+                            <h3>Facebook Brand UI Kit</h3>
+                            <h5>22 tasks | 73%</h5>
+                            <div class="facebook-progress-bar">
+                                <div class="facebook-progress-bar-inner"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Tasks and Stats Section -->
+                    <div class="tasks-stats-container">
+
+                        <!-- Tasks and Stats Section Left Panel -->
+                        <div class="tasks-container">
+                            <h4>Tasks For Today</h4>
+                            <div class="tasks">
+                                <div class="task">
+                                    <p>Mobile App</p>
+                                    <span>Prepare Figna File</span>
+                                    <span></span>
+                                </div>
+                                <div class="task">
+                                    <p>UX wireframes</p>
+                                    <span>Design UX wireframes</span>
+                                    <span></span>
+                                </div>
+                                <div class="task">
+                                    <p>Mobile App</p>
+                                    <span>Research</span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tasks and Stats Section Right Pannel -->
+
+                        <div class="stats-container">
+                            <h4>Statistics</h4>
+                            <div class="stats">
+                                <div class="stat">
+                                    <p>28 h</p>
+                                    <span>Tracked<br /> Time</span>
+                                </div>
+                                <div class="stat">
+                                    <p>18</p>
+                                    <span>Finished <br />Tasks</span>
+
+                                </div>
+                                <div class="stat-new-widget">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <span>New <br />widget</span>
+                                </div>
+                            </div>
+                            <div class="premium">
+                                <div>
+                                    <h4>R160 <span>p/m</span></h4>
+                                    <p>Pro Plan</p>
+                                    <span class="premium-tag">More productivity with premium</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- Pannel Section - Right-->
+                <div class="pannel-right">
+
+                    <div class="pannel-right-topbar">
+                        <h4>Calendar</h4>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+
+                    <!-- date -->
+                    <div class="pannel-right-topbar-date">
+                        <p>Apr 22, 2022</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                    <!-- calender tasks details -->
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">10:00</p>
+                        <div class="date-detail" style="border-left: 3px solid #95d0d5">
+                            <p style="color: #817985">Dribble Shot</p>
+                            <p style="color: #4f1a59">Facebook Brand</p>
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">13:20</p>
+                        <div class="date-detail" style="border-left: 3px solid #f35b2f">
+                            <p style="color: #817985">Design</p>
+                            <p style="color: #4f1a59">Task Management</p>
+                        </div>
+                    </div>
+
+                    <!-- date -->
+                    <div class="pannel-right-topbar-date">
+                        <p>Apr 23, 2022</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                    <!-- calender tasks details -->
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">10:00</p>
+                        <div class="date-detail" style="border-left: 3px solid #4f1a59">
+                            <p style="color: #817985">UX Reseach</p>
+                            <p style="color: #4f1a59">Sleep App</p>
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">13:20</p>
+                        <div class="date-detail" style="border-left: 3px solid #95d0d5">
+                            <p style="color: #817985">Design</p>
+                            <p style="color: #4f1a59">Task Management</p>
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">15:00</p>
+                        <div class="date-detail" style="border-left: 3px solid #f35b2f">
+                            <p style="color: #817985">Dribble Shot</p>
+                            <p style="color: #4f1a59">Meet Up</p>
+                        </div>
+                    </div>
+
+                    <!-- date -->
+                    <div class="pannel-right-topbar-date">
+                        <p>Apr 24, 2022</p>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                    <!-- calender tasks details -->
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">10:00</p>
+                        <div class="date-detail" style="border-left: 3px solid #95d0d5">
+                            <p style="color: #817985">Dribble Shot</p>
+                            <p style="color: #4f1a59">Meet Up</p>
+                        </div>
+                    </div>
+
+                    <div class="calendar-container">
+                        <p class="time" style="color: #4f1a59">11:20</p>
+                        <div class="date-detail" style="border-left: 3px solid #f35b2f">
+                            <p style="color: #817985">Design</p>
+                            <p style="color: #4f1a59">Mobile App</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div><!--dashboard container - ends-->
+        <div class="mobile-dashboard">
+            <h3>Hello, Mpho Molefe </h3><br>
+            <p>Your student dashboard is designed to be used on desktop screens. We want you to get the best experience
+                using our student portal. <span>Please visit your student area using a
+                    laptop/PC or turn your device into a landscape view mode. Minimun width needed: 1100px</span></p>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
