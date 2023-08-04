@@ -14,6 +14,9 @@ The Chaart educational dashboard makes it easy for the user to stay up to date w
 **Dashboard Design**
 _Source:_ [Halo-Lab](https://www.halo-lab.com/blog/dashboard-design-examples)
 
+**Live Demo**
+_Source:_ [Demo](https://the-chaart-dashboard.netlify.app)
+
 **Logo Design**
 Recreated using Adobe Illustrator.Ai and PGN file provided in the images and asserts section
 
